@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyELorohP7SThP--oIKbQO4NBp6dLJWRHqEgDF0R3ONhmEzAcD5B3m9-JFzhytoTHVH/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwYOT1BXcSNw4HoKVurGJRQBMIF3EDFXGJQFhztnGpm4kslMydnM9LsUgYN_eJY79Dn/exec';
 
 const form = document.querySelector('form'); // Thabbet ken el form ma3ndouch id, testa3mel selector
 const btn = document.querySelector('button[type="submit"]');
@@ -43,3 +43,4 @@ form.addEventListener('submit', e => {
         btn.style.background = "#ff4b2b"; // Red Neon
     });
 });
+
