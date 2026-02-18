@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzgkFYboUINBlokWR0sO6VTYtlct4ojrhCt9IYzFRIZyKES16oIDDDgMWOf3OTNRL2HXg/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxqOuiStUWhbVU-DWsQkWQsUZ-YczBoDnSiZjLJAHClNdG9NRe1bocd3lIKaWuxmrWWgg/exec';
 
 const form = document.querySelector('form'); // Thabbet ken el form ma3ndouch id, testa3mel selector
 const btn = document.querySelector('button[type="submit"]');
@@ -42,4 +42,5 @@ form.addEventListener('submit', e => {
         btn.innerHTML = "Retry ❌";
         btn.style.background = "#ff4b2b"; // Red Neon
     });
+
 });
